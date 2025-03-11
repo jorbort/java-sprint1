@@ -1,5 +1,0 @@
-Camera.java
-Main.java
-Smartphone.java
-Telephone.java
-Watch.java

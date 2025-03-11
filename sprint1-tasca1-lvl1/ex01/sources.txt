@@ -1,5 +1,0 @@
-Cuerda.java
-Instrument.java
-Main.java
-Percussion.java
-Wind.java
