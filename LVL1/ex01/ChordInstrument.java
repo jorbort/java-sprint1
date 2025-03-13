@@ -1,8 +1,8 @@
 package ex01;
 
-class Cuerda extends Instrument {
+class ChordInstrument extends Instrument {
 
-    public Cuerda(String p_name, int p_price) {
+    public ChordInstrument(String p_name, int p_price) {
         this.name = p_name;
         this.price = p_price;
     }

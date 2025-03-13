@@ -1,84 +1,84 @@
-Proyecto Java - Ejercicios de Objetos, Clases e Interfaces
 
-Este proyecto contiene varios ejercicios para practicar conceptos de programación orientada a objetos en Java, incluyendo clases, atributos estáticos y finales, interfaces y métodos.
+# Java Project - Exercises on Objects, Classes, and Interfaces
 
-Contenido del proyecto
+This project contains several exercises to practice object-oriented programming concepts in Java, including classes, static and final attributes, interfaces, and methods.
 
-Nivel 1
+## Project Content
 
-Ejercicio 1: Instrumentos musicales
+### Level 1
 
-En este ejercicio se crea una jerarquía de clases para representar diferentes tipos de instrumentos musicales:
+- Exercise 1: Musical Instruments
 
-Instrument (clase abstracta):
+In this exercise, a class hierarchy is created to represent different types of musical instruments:
 
-Atributos: name (String), price (double)
+Instrument (abstract class):
 
-Método abstracto: play()
+Attributes: name (String), price (double)
 
-Clases hijas:
+Abstract method: play()
 
-Wind: Muestra por consola "Está sonando un instrumento de viento"
+Child classes:
 
-Cuerda: Muestra por consola "Está sonando un instrumento de cuerda"
+Wind: Displays "A wind instrument is playing" on the console
 
-Percussion: Muestra por consola "Está sonando un instrumento de percusión"
+String: Displays "A string instrument is playing" on the console
 
-Además, se demuestra el proceso de carga de una clase en Java, que solo se produce una vez, ya sea a través de la creación de la primera instancia o del acceso a un miembro estático.
+Percussion: Displays "A percussion instrument is playing" on the console
 
-Ejercicio 2: Clase Car
+Additionally, the process of loading a class in Java is demonstrated, which only occurs once, either through the creation of the first instance or access to a static member.
 
-Se crea la clase Car con los siguientes atributos:
+- Exercise 2: Car Class
 
-brand: estático y final
+The Car class is created with the following attributes:
 
-model: estático
+brand: static and final
+
+model: static
 
 power: final
 
-Esta estructura permite ver las diferencias entre atributos estáticos y finales, y entender cuál se puede inicializar en el constructor.
+This structure allows us to see the differences between static and final attributes and understand which can be initialized in the constructor.
 
-Métodos:
+Methods:
 
-brake(): estático, muestra por consola "El vehículo está frenando"
+brake(): static, displays "The vehicle is braking" on the console
 
-accelerate(): no estático, muestra por consola "El vehículo está acelerando"
+accelerate(): non-static, displays "The vehicle is accelerating" on the console
 
-Se demuestra cómo invocar estos métodos desde el main().
+It demonstrates how to invoke these methods from the main().
 
-Nivel 2
+### Level 2
 
-Ejercicio 1: Teléfono y Smartphone
+- Exercise 1: Telephone and Smartphone
 
-Se crean las siguientes clases e interfaces:
+The following classes and interfaces are created:
 
-Clase Telephone:
+Class Telephone:
 
-Atributos: brand, model
+Attributes: brand, model
 
-Método: call(String number) — Muestra por consola "Se está llamando al número {number}"
+Method: call(String number) — Displays "Calling the number {number}" on the console
 
-Interfaz Camera:
+Interface Camera:
 
-Método: takePhoto() — Muestra por consola "Se está haciendo una foto"
+Method: takePhoto() — Displays "Taking a photo" on the console
 
-Interfaz Watch:
+Interface Watch:
 
-Método: alarm() — Muestra por consola "Está sonando la alarma"
+Method: alarm() — Displays "The alarm is ringing" on the console
 
-Clase Smartphone:
+Class Smartphone:
 
-Hereda de Telephone e implementa Camera y Watch
+Inherits from Telephone and implements Camera and Watch
 
-Desde el main(), se crea un objeto Smartphone y se llaman a todos los métodos definidos.
+From the main(), a Smartphone object is created, and all defined methods are called.
 
-Cómo ejecutar el proyecto
+How to run the project
 
-Clona este repositorio:
+Clone this repository:
 
-git clone <repositorio-url>
+Open the project in your preferred Java IDE (IntelliJ, Eclipse, VSCode, etc.).
 
-Abre el proyecto en tu IDE de Java preferido (IntelliJ, Eclipse, VSCode, etc.).
+Compile and run the main class.
 
-Compila y ejecuta la clase principal.
-
+In IntelliJ, make sure to select the current file as the file to run.

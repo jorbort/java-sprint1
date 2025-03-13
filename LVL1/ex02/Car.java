@@ -1,4 +1,6 @@
-class Car {
+package ex02;
+
+public class Car {
 
     private static final String brand = "ford";
     private static String model = "f-100";
@@ -8,7 +10,7 @@ class Car {
         this.potency = p_potency;
     }
 
-    public void acclerate() {
+    public void accelerate() {
         System.out.println("The car is accelarating.");
     }
 

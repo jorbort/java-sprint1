@@ -1,3 +1,4 @@
+package LVL2.ex01;
 class Telephone {
 
     String brand;

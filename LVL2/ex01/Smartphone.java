@@ -1,3 +1,4 @@
+package LVL2.ex01;
 class Smartphone extends Telephone implements Camera, Watch {
 
     public Smartphone(String p_brand, String p_model) {

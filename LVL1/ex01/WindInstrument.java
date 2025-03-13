@@ -1,8 +1,8 @@
 package ex01;
 
-class Wind extends Instrument {
+class WindInstrument extends Instrument {
 
-    public Wind(String p_name, int p_price) {
+    public WindInstrument(String p_name, int p_price) {
         this.name = p_name;
         this.price = p_price;
     }
